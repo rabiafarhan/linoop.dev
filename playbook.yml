@@ -1,0 +1,9 @@
+---
+- name: craeting users
+  hosts: all
+  tasks:
+    - name: adding users
+      user:
+        name: john
+        state: present
+...
